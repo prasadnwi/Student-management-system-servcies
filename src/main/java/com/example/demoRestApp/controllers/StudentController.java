@@ -40,7 +40,7 @@ public class StudentController {
         student.set_id(id);
         studentRepository.save(student);
     }
-
+//
     // delete student records
     @RequestMapping(value = "/{id}", method = RequestMethod.DELETE)
     public void deleteStudentById(@PathVariable ObjectId id) {
